@@ -125,4 +125,17 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<distributionManagement>
+   		 <repository>
+        		<id>mylocalmavenrepo</id>
+       		        <name>Internal Releases</name>
+        		<url>http://13.235.68.119:8081/repository/mylocalmavenrepo/</url>
+    		 </repository>
+    		 <snapshotRepository>
+        		<id>mylocalmavenrepo</id>
+        		<name>Internal Snapshots</name>
+        		<url>http://13.235.68.119:8081/repository/mylocalmavenrepo/</url>
+                 </snapshotRepository>
+	</distributionManagement>
+   
 </project>
