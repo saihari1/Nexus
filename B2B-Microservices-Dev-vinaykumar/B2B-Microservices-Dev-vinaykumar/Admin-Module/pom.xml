@@ -126,11 +126,6 @@
 		</dependencies>
 	</dependencyManagement>
 	<distributionManagement>
-   		 <repository>
-        		<id>maven-releases</id>
-       		        <name>Internal Releases</name>
-        		<url>http://13.235.68.119:8081/repository/maven-releases/</url>
-    		 </repository>
     		 <snapshotRepository>
         		<id>maven-snapshots</id>
         		<name>Internal Snapshots</name>
